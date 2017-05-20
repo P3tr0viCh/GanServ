@@ -1,0 +1,9 @@
+CREATE TABLE kanatb (
+scales SMALLINT,
+num INTEGER,
+wtime INT UNSIGNED,
+bdatetime DATETIME,
+brutto FLOAT(16,2),
+tare FLOAT(16,2),
+netto FLOAT(16,2),
+PRIMARY KEY (scales, bdatetime));
